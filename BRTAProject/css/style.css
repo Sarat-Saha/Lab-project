@@ -1,0 +1,126 @@
+body{
+    height: auto;
+    width: 100%;
+    background-image: url(../images/bg_main.gif);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+header .headsection{
+    height: 100px;
+    width: 53%;
+    background-color:#683091;
+    position: absolute;
+    left: 23.5%;
+    
+}
+header .headsection .logo{
+    height: 100px;
+    width: 15%;
+    float: left;
+}
+header .headsection .logo img{
+    padding: 15px 10px;
+}
+header .headsection .text{
+    height: 100px;
+    width: auto;
+    float: left;
+    line-height: 5px;
+    padding: 15px;
+    color: white;
+}
+header .headsection .nav{
+    height: 100px;
+    width: auto;
+    float: right;
+}
+header .headsection .nav ul{
+    display: inline-flex;
+}
+header .headsection .nav ul li{
+    list-style: none;
+    padding: 20px 30px;
+}
+header .headsection .nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+header .headsection .nav ul li a:hover{
+    color: rgb(218, 17, 17);
+}
+header #slider{
+    height: 300px;
+    width: 53%;
+    background-color:#683091;
+    position: absolute;
+    left: 23.5%;
+    top: 10%;
+}
+header #slider img{
+    height: 400px;
+    width: 100%;
+}
+#instructions{
+    height: auto;
+    width: 53%;
+    background-color:#683091;
+    position: absolute;
+    left: 23.5%;
+    top: 50%;
+    color: white;
+    padding: 50px 25px;
+}
+.fee{
+    height: auto;
+    width: 53%;
+    background-color:#8e9130;
+    position: absolute;
+    left: 23.5%;
+    top: 150%;
+}
+footer{
+    height: auto;
+    width: 53%;
+    background-color:#000000;
+    position: absolute;
+    left: 23.5%;
+    top: 193%;
+    color: white;
+}
+footer ul li{
+    list-style: none;
+}
+.apply{
+    height: auto;
+    width: 50%;
+    position: absolute;
+    left: 23.5%;
+    top: 10%;
+    margin-bottom: 20px;
+}
+.content{
+    height: 100px;
+    width: 53%;
+    position: absolute;
+    left: 23.5%;
+    top: 10%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.content h3{
+    text-align: center;
+}
+.content .bg {
+    background-size: cover;
+    background-position: center; }
+  
+  .content .btn {
+    height: 54px;
+    padding-left: 30px;
+    padding-right: 30px; }
+  
+  .content .btn-pill {
+    border-radius: 30px; 
+}
